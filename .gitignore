@@ -1,3 +1,8 @@
+# Pods files
+Pods
+# Make sure you add this, or else you'll end up commiting a bunch of files you don't want
+vendor
+
 # Xcode
 #
 build/
@@ -16,5 +21,5 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-Pods/
 *.DS_Store
+

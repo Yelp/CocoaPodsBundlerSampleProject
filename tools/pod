@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+SCRIPT_DIR=$(cd `dirname $0` && pwd)
+BASE_DIR="$SCRIPT_DIR/.."
+
+make -C "$BASE_DIR" -s vendor && "$BASE_DIR/vendor/bin/pod" $@
