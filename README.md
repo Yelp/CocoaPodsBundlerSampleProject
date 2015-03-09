@@ -6,7 +6,7 @@ Sample project showing how to manage CocoaPods with bundler. CocoaPods is instal
 ## Usage
 
 * Use 'tools/pod' install of the normal 'pod'
-* To update CocoaPods, modifile Gemfile, run 'bundle/install', and then commit the changes to Podfile.lock, Gemfile and Gemfile.lock
+* To update CocoaPods, modifile Gemfile, run 'bundle/install', 'tools/pod install', and then commit the changes to Podfile.lock, Gemfile and Gemfile.lock
 
 ## Using this in your own project
 
